@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: green;
+  color: white;
+  height: 60px;
+  font-size: 4rem;
+}
+.user-list ul {
+  display: flex;
+  flex-direction: column;
+
+}
+.user-list ul li {
+  list-style: none;
+}
+.single-user {
+  display: flex;
+  align-items: center;
+  width: 600px;
+  background-color: grey;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 10px;
+  color: black;
+  font-size: 1.2rem;
+}
+.single-user img {
+  margin-right: 20px;
+  border-radius: 50%;
+  width: 100px;
+}
+.user-info .user-mail {
+margin: 10px 0;
+}
